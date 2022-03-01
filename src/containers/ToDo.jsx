@@ -13,7 +13,7 @@ import ToDoList from "../components/ToDoList";
     return(
         <div  style = {{textAlign: 'center'}}>
              <h1>TODO</h1>
-             <h2>Add Your Task</h2>
+             <h2>Add My</h2>
              <input value= {newTodo} onChange = {(event) => {
                  setNewTodo(event.target.value);
            }}
